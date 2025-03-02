@@ -10,7 +10,7 @@ export function BalanceCalculator() {
   const [idrValue, setIdrValue] = useState('0');
 
   // Fetch current USD to IDR exchange rate
-  const [usdToIdr, setUsdToIdr] = useState(15500); // Default fallback rate
+  const [usdToIdr] = useState(16500); // Default fallback rate
 
   useEffect(() => {
     // Update values whenever PEP amount or price changes
