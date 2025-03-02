@@ -1,7 +1,6 @@
 'use client';
 
 import { useWalletBalance } from '../hooks/useWalletBalance';
-import { WalletInfo } from '../types';
 
 interface WalletCardProps {
   address: string;

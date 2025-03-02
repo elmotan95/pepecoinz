@@ -1,4 +1,4 @@
-import { WalletInfo, WalletTransaction } from '../types';
+import { WalletTransaction } from '../types';
 
 // This would typically use axios or fetch to call your backend
 export const walletApi = {
